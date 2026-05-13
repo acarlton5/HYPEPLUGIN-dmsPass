@@ -1,0 +1,13 @@
+{
+  "id": "dmsPass",
+  "name": "Pass",
+  "description": "Simple Pass launcher",
+  "version": "0.1.3",
+  "author": "Louis Kottmann",
+  "icon": "vpn_key",
+  "type": "launcher",
+  "trigger": "pass",
+  "component": "./PassLauncher.qml",
+  "settings": "./PassSettings.qml",
+  "permissions": ["settings_read", "settings_write"]
+}
